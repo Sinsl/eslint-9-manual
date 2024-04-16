@@ -1,0 +1,24 @@
+{
+  "name": "test-hw-no-init",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "lint": "eslint . --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.4",
+    "@babel/eslint-parser": "^7.24.1",
+    "@babel/preset-env": "^7.24.4",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0"
+  },
+  "dependencies": {
+    "core-js": "^3.36.1"
+  }
+}
